@@ -1,0 +1,6 @@
+framework module Pods_ViewCodeExample {
+  umbrella header "Pods-ViewCodeExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
