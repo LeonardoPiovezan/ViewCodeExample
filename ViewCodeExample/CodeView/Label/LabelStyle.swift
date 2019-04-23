@@ -11,14 +11,14 @@ import UIKit
 
 enum LabelStyle {
     case title
-    case subTitle
+    case subtitle
     case custom(descriptor: LabelDescriptor)
 
     var descriptor: LabelDescriptor {
         switch self {
         case .title:
             return TitleDescriptor()
-        case .subTitle:
+        case .subtitle:
             return SubTitleDescriptor()
         case .custom(let descriptor):
             return descriptor

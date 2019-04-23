@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/leonardopiovezan1/TDC/ViewCodeExample/ViewCodeExample/CodeView/Label/LabelFactory.swift">
-   </FileRef>
-   <FileRef
       location = "group:ViewCodeExample.xcodeproj">
    </FileRef>
    <FileRef

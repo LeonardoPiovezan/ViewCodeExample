@@ -18,16 +18,14 @@ final class SignUpViewScreen: UIView {
                                    spacing: Style.Margins.smallMargin)
     }()
 
-    lazy var textFieldView: TextFieldView = {
-        return TextFieldView()
-    }()
-
     lazy var nameTextView: TextFieldView = {
-        return TextFieldView(title: "Nome", placeholder: "Digite seu nome")
+        return TextFieldView(title: "Nome",
+                             placeholder: "Digite seu nome")
     }()
 
     lazy var passwordTextView: TextFieldView = {
-        return TextFieldView(title: "Senha", placeholder: "Digite sua senha")
+        return TextFieldView(title: "Senha",
+                             placeholder: "Digite sua senha")
     }()
 
     lazy var button: UIButton = {

@@ -9,13 +9,12 @@
 import UIKit
 
 final class TitleView: UIView {
-
     private lazy var titleLabel: UILabel = {
-        return Label(style: .title)
+        return LabelFactory.getLabelFor(style: .title)
     }()
 
     private lazy var subtitleLabel: UILabel = {
-        return Label(style: .subTitle)
+        return LabelFactory.getLabelFor(style: .subtitle)
     }()
 
     private lazy var stackView: UIStackView = {
