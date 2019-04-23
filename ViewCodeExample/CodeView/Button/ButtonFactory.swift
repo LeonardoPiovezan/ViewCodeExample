@@ -8,8 +8,7 @@
 
 import UIKit
 
-class Button {
-
+class ButtonFactory {
     static func getButtonFor(style: ButtonStyle) -> UIButton {
         switch style {
         case .main:
@@ -18,9 +17,4 @@ class Button {
             return SecondaryButton(frame: CGRect.zero)
         }
     }
-}
-
-enum ButtonStyle {
-    case main
-    case secondary
 }

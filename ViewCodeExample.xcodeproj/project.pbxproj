@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A44A81B226EC133009B55B3 /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A44A81A226EC133009B55B3 /* LabelFactory.swift */; };
+		1A44A81D226EC34E009B55B3 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A44A81C226EC34E009B55B3 /* ButtonStyle.swift */; };
+		1A44A81F226EC89E009B55B3 /* OldTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A44A81E226EC89E009B55B3 /* OldTitleView.swift */; };
+		1A44A821226EDB7C009B55B3 /* ButtonFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A44A820226EDB7C009B55B3 /* ButtonFactory.swift */; };
 		1ACFCEE0226BB1B0002BEE2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACFCEDF226BB1B0002BEE2F /* AppDelegate.swift */; };
-		1ACFCEE2226BB1B0002BEE2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACFCEE1226BB1B0002BEE2F /* ViewController.swift */; };
-		1ACFCEE5226BB1B0002BEE2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ACFCEE3226BB1B0002BEE2F /* Main.storyboard */; };
 		1ACFCEE7226BB1B2002BEE2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ACFCEE6226BB1B2002BEE2F /* Assets.xcassets */; };
 		1ACFCEEA226BB1B2002BEE2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ACFCEE8226BB1B2002BEE2F /* LaunchScreen.storyboard */; };
 		1ACFCEF5226BB1B2002BEE2F /* ViewCodeExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACFCEF4226BB1B2002BEE2F /* ViewCodeExampleTests.swift */; };
@@ -28,7 +30,6 @@
 		1ACFCF28226C0235002BEE2F /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACFCF27226C0235002BEE2F /* TitleView.swift */; };
 		1ACFCF2A226D2164002BEE2F /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACFCF29226D2164002BEE2F /* TextFieldView.swift */; };
 		1ACFCF2C226D33D8002BEE2F /* ShadowCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACFCF2B226D33D8002BEE2F /* ShadowCardView.swift */; };
-		1ACFCF2F226D495A002BEE2F /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACFCF2E226D495A002BEE2F /* Button.swift */; };
 		1ACFCF32226D5355002BEE2F /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACFCF31226D5355002BEE2F /* MainButton.swift */; };
 		1ACFCF34226D61BF002BEE2F /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACFCF33226D61BF002BEE2F /* SecondaryButton.swift */; };
 		2A03A26D916C28320A76F3A5 /* Pods_ViewCodeExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F440D7484669ACCFCCFA02 /* Pods_ViewCodeExample.framework */; };
@@ -54,10 +55,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A44A81A226EC133009B55B3 /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LabelFactory.swift; path = /Users/leonardopiovezan1/TDC/ViewCodeExample/ViewCodeExample/CodeView/Label/LabelFactory.swift; sourceTree = "<absolute>"; };
+		1A44A81C226EC34E009B55B3 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		1A44A81E226EC89E009B55B3 /* OldTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldTitleView.swift; sourceTree = "<group>"; };
+		1A44A820226EDB7C009B55B3 /* ButtonFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonFactory.swift; sourceTree = "<group>"; };
 		1ACFCEDC226BB1B0002BEE2F /* ViewCodeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewCodeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ACFCEDF226BB1B0002BEE2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1ACFCEE1226BB1B0002BEE2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1ACFCEE4226BB1B0002BEE2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1ACFCEE6226BB1B2002BEE2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1ACFCEE9226BB1B2002BEE2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1ACFCEEB226BB1B2002BEE2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -81,7 +84,6 @@
 		1ACFCF27226C0235002BEE2F /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		1ACFCF29226D2164002BEE2F /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 		1ACFCF2B226D33D8002BEE2F /* ShadowCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowCardView.swift; sourceTree = "<group>"; };
-		1ACFCF2E226D495A002BEE2F /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		1ACFCF31226D5355002BEE2F /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
 		1ACFCF33226D61BF002BEE2F /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
 		1EF707839F65C3C12A2C1394 /* Pods_ViewCodeExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViewCodeExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,8 +154,6 @@
 				1ACFCF21226BFC82002BEE2F /* Modules */,
 				1ACFCF0D226BB1CE002BEE2F /* CodeView */,
 				1ACFCEDF226BB1B0002BEE2F /* AppDelegate.swift */,
-				1ACFCEE1226BB1B0002BEE2F /* ViewController.swift */,
-				1ACFCEE3226BB1B0002BEE2F /* Main.storyboard */,
 				1ACFCEE6226BB1B2002BEE2F /* Assets.xcassets */,
 				1ACFCEE8226BB1B2002BEE2F /* LaunchScreen.storyboard */,
 				1ACFCEEB226BB1B2002BEE2F /* Info.plist */,
@@ -187,7 +187,6 @@
 				1ACFCF14226BB20A002BEE2F /* CodeView.swift */,
 				1ACFCF0E226BB20A002BEE2F /* CustomViewController.swift */,
 				1ACFCF0F226BB20A002BEE2F /* Label */,
-				1ACFCF16226BB20A002BEE2F /* Label.swift */,
 				1ACFCF15226BB20A002BEE2F /* Style.swift */,
 			);
 			path = CodeView;
@@ -196,6 +195,8 @@
 		1ACFCF0F226BB20A002BEE2F /* Label */ = {
 			isa = PBXGroup;
 			children = (
+				1A44A81A226EC133009B55B3 /* LabelFactory.swift */,
+				1ACFCF16226BB20A002BEE2F /* Label.swift */,
 				1ACFCF10226BB20A002BEE2F /* LabelStyle.swift */,
 				1ACFCF11226BB20A002BEE2F /* LabelDescriptor.swift */,
 				1ACFCF12226BB20A002BEE2F /* TitleDescriptor.swift */,
@@ -220,6 +221,7 @@
 				1ACFCF27226C0235002BEE2F /* TitleView.swift */,
 				1ACFCF29226D2164002BEE2F /* TextFieldView.swift */,
 				1ACFCF2B226D33D8002BEE2F /* ShadowCardView.swift */,
+				1A44A81E226EC89E009B55B3 /* OldTitleView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -227,7 +229,8 @@
 		1ACFCF2D226D4932002BEE2F /* Button */ = {
 			isa = PBXGroup;
 			children = (
-				1ACFCF2E226D495A002BEE2F /* Button.swift */,
+				1A44A820226EDB7C009B55B3 /* ButtonFactory.swift */,
+				1A44A81C226EC34E009B55B3 /* ButtonStyle.swift */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -374,7 +377,6 @@
 			files = (
 				1ACFCEEA226BB1B2002BEE2F /* LaunchScreen.storyboard in Resources */,
 				1ACFCEE7226BB1B2002BEE2F /* Assets.xcassets in Resources */,
-				1ACFCEE5226BB1B0002BEE2F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,19 +498,21 @@
 				1ACFCF17226BB20A002BEE2F /* CustomViewController.swift in Sources */,
 				1ACFCF28226C0235002BEE2F /* TitleView.swift in Sources */,
 				1ACFCF1B226BB20A002BEE2F /* SubtitleDescriptor.swift in Sources */,
+				1A44A81D226EC34E009B55B3 /* ButtonStyle.swift in Sources */,
 				1ACFCF25226BFD35002BEE2F /* SignUpViewScreen.swift in Sources */,
 				1ACFCF34226D61BF002BEE2F /* SecondaryButton.swift in Sources */,
-				1ACFCEE2226BB1B0002BEE2F /* ViewController.swift in Sources */,
 				1ACFCF19226BB20A002BEE2F /* LabelDescriptor.swift in Sources */,
 				1ACFCF23226BFCD8002BEE2F /* SignUpViewController.swift in Sources */,
 				1ACFCEE0226BB1B0002BEE2F /* AppDelegate.swift in Sources */,
 				1ACFCF2C226D33D8002BEE2F /* ShadowCardView.swift in Sources */,
+				1A44A81B226EC133009B55B3 /* LabelFactory.swift in Sources */,
+				1A44A81F226EC89E009B55B3 /* OldTitleView.swift in Sources */,
 				1ACFCF1D226BB20A002BEE2F /* Style.swift in Sources */,
 				1ACFCF2A226D2164002BEE2F /* TextFieldView.swift in Sources */,
 				1ACFCF1C226BB20A002BEE2F /* CodeView.swift in Sources */,
 				1ACFCF20226BB98F002BEE2F /* ScrollableStackView.swift in Sources */,
 				1ACFCF1E226BB20A002BEE2F /* Label.swift in Sources */,
-				1ACFCF2F226D495A002BEE2F /* Button.swift in Sources */,
+				1A44A821226EDB7C009B55B3 /* ButtonFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,14 +548,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1ACFCEE3226BB1B0002BEE2F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1ACFCEE4226BB1B0002BEE2F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1ACFCEE8226BB1B2002BEE2F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -10,28 +10,24 @@ import Foundation
 import UIKit
 
 struct Style {
-
     struct Colors {
-        static let purple: UIColor = .red
+        static let mainAppColor: UIColor = .purple
+        static let purple: UIColor = .purple
         static let blue: UIColor = .blue
         static let gray: UIColor = .gray
+        static let white: UIColor = .white
     }
 
     struct Margins {
         static let smallMargin: CGFloat = 8
+        static let mediumMargin: CGFloat = 16
+        static let largeMargin: CGFloat = 24
     }
 
-    struct Dimensions {
-        
-    }
     struct Fonts {
-        lazy var mainFont: UIFont = {
-            return UIFont.systemFont(ofSize: self.fontSize)
-        }()
-
-        private var fontSize: CGFloat = 0
-        init(fontSize: CGFloat) {
-            self.fontSize = fontSize
+        static func getMainFontWith(size: CGFloat) -> UIFont {
+//            return UIFont(name: "TamilSangamMN", size: size)!
+            return UIFont.systemFont(ofSize: size)
         }
     }
 }

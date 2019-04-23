@@ -9,6 +9,6 @@
 import UIKit
 
 struct TitleDescriptor: LabelDescriptor {
-    var font: UIFont = UIFont.systemFont(ofSize: 17)
-    var textColor: UIColor = Style.Colors.purple
+    var font: UIFont = Style.Fonts.getMainFontWith(size: 20)
+    var textColor: UIColor = Style.Colors.mainAppColor
 }

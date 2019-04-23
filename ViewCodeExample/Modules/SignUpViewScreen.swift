@@ -14,11 +14,8 @@ final class SignUpViewScreen: UIView {
     }()
 
     lazy var scrollableView: ScrollableStackView = {
-        return ScrollableStackView(orientation: NSLayoutConstraint.Axis.vertical, spacing: 8)
-    }()
-
-    lazy var titleView: TitleView = {
-        return TitleView()
+        return ScrollableStackView(orientation: .vertical,
+                                   spacing: Style.Margins.smallMargin)
     }()
 
     lazy var textFieldView: TextFieldView = {
@@ -32,8 +29,9 @@ final class SignUpViewScreen: UIView {
     lazy var passwordTextView: TextFieldView = {
         return TextFieldView(title: "Senha", placeholder: "Digite sua senha")
     }()
+
     lazy var button: UIButton = {
-        return Button.getButtonFor(style: .secondary)
+        return ButtonFactory.getButtonFor(style: .main)
     }()
 
     init() {
@@ -51,8 +49,6 @@ extension SignUpViewScreen: CodeView {
         self.addSubview(self.scrollableView)
         self.scrollableView.addArrangedSubview(self.headerView)
         self.scrollableView.addArrangedSubview(self.nameTextView)
-//        self.scrollableView.addArrangedSubview(self.titleView)
-//        self.scrollableView.addArrangedSubview(self.textFieldView)
         self.scrollableView.addArrangedSubview(self.passwordTextView)
         self.scrollableView.addArrangedSubview(self.button)
     }
@@ -69,8 +65,7 @@ extension SignUpViewScreen: CodeView {
     }
 
     func configureAdditionalConfiguration() {
-        self.scrollableView.backgroundColor = Style.Colors.gray
+        self.scrollableView.backgroundColor = Style.Colors.white
         self.button.setTitle("Criar Conta", for: .normal)
-
     }
 }

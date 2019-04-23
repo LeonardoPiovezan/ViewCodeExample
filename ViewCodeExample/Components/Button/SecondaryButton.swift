@@ -22,6 +22,8 @@ class SecondaryButton: UIButton {
     func configureView() {
         self.layer.cornerRadius = 10
         self.layer.borderWidth = 2.0
-        self.layer.borderColor = Style.Colors.purple.cgColor
+        self.layer.borderColor = Style.Colors.mainAppColor.cgColor
+        self.setTitleColor(Style.Colors.mainAppColor, for: .normal)
+        self.titleLabel?.font = Style.Fonts.getMainFontWith(size: 17)
     }
 }

@@ -21,6 +21,7 @@ class MainButton: UIButton {
 
     func configureView() {
         self.layer.cornerRadius = 10
-        self.backgroundColor = .black
+        self.backgroundColor = Style.Colors.mainAppColor
+        self.titleLabel?.font = Style.Fonts.getMainFontWith(size: 17)
     }
 }

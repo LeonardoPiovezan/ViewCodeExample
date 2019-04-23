@@ -9,7 +9,6 @@
 import UIKit
 
 class Label: UILabel {
-
     required init(style: LabelStyle) {
         super.init(frame: CGRect.zero)
         let descriptor = style.descriptor

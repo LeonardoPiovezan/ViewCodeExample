@@ -3,7 +3,7 @@
 //  \\
 //
 //  Created by Leonardo Augusto Piovezan on 07/12/18.
-//  Copyright © 2018 EBANX. All rights reserved.
+//  Copyright © 2019 Leonardo Piovezan. All rights reserved.
 //
 
 import UIKit

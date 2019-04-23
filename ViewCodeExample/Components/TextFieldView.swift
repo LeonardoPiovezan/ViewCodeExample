@@ -10,8 +10,8 @@ import UIKit
 
 final class TextFieldView: UIView {
 
-    private lazy var titleLabel: Label = {
-        return Label(style: .title)
+    private lazy var titleLabel: UILabel = {
+        return LabelFactory.getLabelFor(style: .title)
     }()
 
     private lazy var textField: UITextField = {

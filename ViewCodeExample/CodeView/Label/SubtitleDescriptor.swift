@@ -9,6 +9,6 @@
 import UIKit
 
 struct SubTitleDescriptor: LabelDescriptor {
-    var font: UIFont = UIFont.systemFont(ofSize: 14)
+    var font: UIFont = Style.Fonts.getMainFontWith(size: 14)
     var textColor: UIColor = .gray
 }
