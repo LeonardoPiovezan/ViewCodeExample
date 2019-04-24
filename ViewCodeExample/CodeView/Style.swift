@@ -12,7 +12,7 @@ import UIKit
 struct Style {
     struct Colors {
         static let mainAppColor: UIColor = .purple
-        static let purple: UIColor = .blue
+        static let purple: UIColor = .purple
         static let blue: UIColor = .blue
         static let gray: UIColor = .gray
         static let white: UIColor = .white

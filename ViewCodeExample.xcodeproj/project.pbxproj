@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A44A81B226EC133009B55B3 /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A44A81A226EC133009B55B3 /* LabelFactory.swift */; };
+		01458E4B2270E0AD0045A625 /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01458E4A2270E0AD0045A625 /* LabelFactory.swift */; };
 		1A44A81D226EC34E009B55B3 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A44A81C226EC34E009B55B3 /* ButtonStyle.swift */; };
 		1A44A81F226EC89E009B55B3 /* OldTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A44A81E226EC89E009B55B3 /* OldTitleView.swift */; };
 		1A44A821226EDB7C009B55B3 /* ButtonFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A44A820226EDB7C009B55B3 /* ButtonFactory.swift */; };
@@ -55,7 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A44A81A226EC133009B55B3 /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LabelFactory.swift; path = /Users/leonardopiovezan1/TDC/ViewCodeExample/ViewCodeExample/CodeView/Label/LabelFactory.swift; sourceTree = "<absolute>"; };
+		01458E4A2270E0AD0045A625 /* LabelFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
 		1A44A81C226EC34E009B55B3 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 		1A44A81E226EC89E009B55B3 /* OldTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldTitleView.swift; sourceTree = "<group>"; };
 		1A44A820226EDB7C009B55B3 /* ButtonFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonFactory.swift; sourceTree = "<group>"; };
@@ -195,7 +195,7 @@
 		1ACFCF0F226BB20A002BEE2F /* Label */ = {
 			isa = PBXGroup;
 			children = (
-				1A44A81A226EC133009B55B3 /* LabelFactory.swift */,
+				01458E4A2270E0AD0045A625 /* LabelFactory.swift */,
 				1ACFCF16226BB20A002BEE2F /* Label.swift */,
 				1ACFCF10226BB20A002BEE2F /* LabelStyle.swift */,
 				1ACFCF11226BB20A002BEE2F /* LabelDescriptor.swift */,
@@ -495,6 +495,7 @@
 				1ACFCF18226BB20A002BEE2F /* LabelStyle.swift in Sources */,
 				1ACFCF1A226BB20A002BEE2F /* TitleDescriptor.swift in Sources */,
 				1ACFCF32226D5355002BEE2F /* MainButton.swift in Sources */,
+				01458E4B2270E0AD0045A625 /* LabelFactory.swift in Sources */,
 				1ACFCF17226BB20A002BEE2F /* CustomViewController.swift in Sources */,
 				1ACFCF28226C0235002BEE2F /* TitleView.swift in Sources */,
 				1ACFCF1B226BB20A002BEE2F /* SubtitleDescriptor.swift in Sources */,
@@ -505,7 +506,6 @@
 				1ACFCF23226BFCD8002BEE2F /* SignUpViewController.swift in Sources */,
 				1ACFCEE0226BB1B0002BEE2F /* AppDelegate.swift in Sources */,
 				1ACFCF2C226D33D8002BEE2F /* ShadowCardView.swift in Sources */,
-				1A44A81B226EC133009B55B3 /* LabelFactory.swift in Sources */,
 				1A44A81F226EC89E009B55B3 /* OldTitleView.swift in Sources */,
 				1ACFCF1D226BB20A002BEE2F /* Style.swift in Sources */,
 				1ACFCF2A226D2164002BEE2F /* TextFieldView.swift in Sources */,
